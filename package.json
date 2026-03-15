@@ -1,0 +1,17 @@
+{
+  "name": "frontend-bootstrap-test",
+  "version": "1.0.0",
+  "description": "The project  is provided mock-up into a resposive static webpage using HTML , JS , Bootrstrap 5.3, also the project uses native web components  to organize the page into reusable UI section without introducing a framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.98.0"
+  }
+}

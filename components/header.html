@@ -1,0 +1,125 @@
+<nav
+  class="navbar navbar-expand-lg bg-primary py-3 main-container  sticky-top d-none d-lg-block"
+  data-bs-theme="dark"
+>
+  <div class="container">
+       <hr class="text-secondary opacity-25  " />
+    <div class="row align-items-center w-100 m-0">
+      <div class="col-3">
+        <a class="navbar-brand fw-fold fs-3" href="#">
+          <img
+            src="/assets/odoo-logo-white.svg"
+            alt="Odoo logo"
+            height="35"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+      </div>
+
+      <div class="col-6 d-flex justify-content-center">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-o gap-3">
+          <li class="nav-item"><a class="nav-link" href="#apps">Apps</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#community">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#partner">Partner</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-3 d-flex justify-content-end align-items-center gap-4">
+        <a href="#login" class="text-white text-decoration-none fw-medium"
+          >Login</a
+        >
+        <button class="btn btn-light text-primary rounded-pill fw-bold">
+          Buy now
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="px-3">
+  <nav
+    class="p-3 bg-primary py-3 sticky-top d-flex d-lg-none align-items-center justify-content-between rounded-3 p-1"
+    data-bs-theme="dark"
+  >
+    <button
+      class="navbar-toggler border-0 shadow-none p-0" 
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#mobileMenu"
+      aria-controls="mobileMenu"
+      aria-expanded="false"
+      aria-label="Toggle nav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+ 
+    <a class="navbar-brand fw-fold fs-3 m-0" href="#">
+      <img
+        src="/assets/odoo-logo-white.svg"
+        alt="Odoo logo"
+        height="35"
+        class="d-inline-block align-text-top"
+      />
+    </a>
+  </nav>
+</div>
+
+<div
+  class="offcanvas offcanvas-start d-lg-none"
+  tabindex="-1"
+  id="mobileMenu"
+  aria-labelledby="mobileMenuLabel px-4 "
+>
+
+  <div class="offcanvas-header px-4  ">
+   <div class="  gap-4">
+       <p class="offcanvas-title fw-bold text-primary fs-4">Menu</p>
+        
+      </div>
+    <button
+      class="btn-close shadow-none"
+      type="button"
+      data-bs-dismiss="offcanvas"
+      aria-label="close"
+    ></button>
+  </div>
+  <hr class="text-secondary opacity-25 mt-0 mb-4" />
+  <ul class="navbar-nav flex-column gap-3  px-4">
+    <li class="nav-item">
+      <a href="#apps" class="nav-link text-dark fw-medium">
+        <i class="bi bi-grid me-2"></i>Apps
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="#apps" class="nav-link text-dark fw-medium">
+        <i class="bi bi-people me-2"></i>Community
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="#apps" class="nav-link text-dark fw-medium">
+        <i class="bi bi-briefcase me-2"></i>Partner
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="#apps" class="nav-link text-dark fw-medium">
+        <i class="bi bi-tag me-2"></i>Pricing
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="#apps" class="nav-link text-dark fw-medium">
+        <i class="bi bi-envelope me-2"></i>Contact
+      </a>
+    </li>
+  </ul>
+</div>
