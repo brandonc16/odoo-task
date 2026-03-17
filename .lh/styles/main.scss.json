@@ -1,0 +1,38 @@
+{
+    "sourceFile": "styles/main.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1773645166214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1773645292987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n \n \n .card-hover-lift{\n \n-  transition: transform 0.3s ease , box-shadow 0-3 ease;\n+  transition: transform 0.3s ease , box-shadow 0.3 ease;\n }\n .card-hover-lift:hover{\n transform: translateY(-10px);\n box-shadow: 0 1rem 3rem rgba(0 , 0, 0, .15) !important;\n"
+                },
+                {
+                    "date": 1773645319714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n \n \n .card-hover-lift{\n \n-  transition: transform 0.3s ease , box-shadow 0.3 ease;\n+  transition: transform 0.5s ease , box-shadow 0.5 ease;\n }\n .card-hover-lift:hover{\n transform: translateY(-10px);\n box-shadow: 0 1rem 3rem rgba(0 , 0, 0, .15) !important;\n"
+                },
+                {
+                    "date": 1773696559920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,5 +67,12 @@\n }\n .card-hover-lift:hover{\n transform: translateY(-10px);\n box-shadow: 0 1rem 3rem rgba(0 , 0, 0, .15) !important;\n+}\n+\n+.faq-icon{\n+ transition:  transform 0.3s ease;\n+}\n+.faq-icon{\n+  transform: rotate(135deg);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1773696854078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,7 +72,7 @@\n \n .faq-icon{\n  transition:  transform 0.3s ease;\n }\n-.faq-icon{\n+[aria-exapanded=\"true\"] .faq-icon{\n   transform: rotate(135deg);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1773696996741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,7 +72,7 @@\n \n .faq-icon{\n  transition:  transform 0.3s ease;\n }\n-[aria-exapanded=\"true\"] .faq-icon{\n+[aria-expanded=\"true\"] .faq-icon{\n   transform: rotate(135deg);\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1773645166214,
+            "name": "Commit-0",
+            "content": "@import \"../node_modules/bootstrap/scss/functions\";\n@import \"../node_modules/bootstrap/scss/variables\";\n@import \"../node_modules/bootstrap/scss/variables-dark\";\n \n\n \n\n// GLOBAL COLORS\n\n$blue-oddo: #0189FE;\n$dark-card: #161348;\n$text-gray: #8f9bb3;\n\n// Overwrite native labels of bootsrap\n\n$primary: $blue-oddo;\n$body-bg: #ffffff;\n$body-color: #1A1941;\n\n//borders and shadows\n$border-radius: 0.5rem;\n$border-radius-lg: 1.5rem;\n$border-radius-xl: 3rem;\n$box-shadow: 0 10px 30px #b9b9b9;\n\n \n//merge colors whith bootstrap\n$custom-theme: (\n  \"brand\": $blue-oddo,\n  \"card-dark\": $dark-card   \n);\n$theme-colors: map-merge($theme-colors, $custom-theme);\n\n\n// PX\n$custom-spacers : (\n  6: $spacer * 4,\n  7: $spacer * 5,\n  8: $spacer * 6,\n  9: $spacer * 8,\n  10: $spacer * 10,\n\n);\n\n//merge px whith bootstrap\n$spacers : map-merge($spacers , $custom-spacers);\n\n\n@import \"../node_modules/bootstrap/scss/bootstrap\";\n\n//global px \n.main-container{\n  @extend .px-10;\n}\n\n\n//FOOTER\n.footer-style{\n   clip-path: polygon(0 5%, 100% 0, 100%, 0 100%);\n}\n\n\n\n.card-hover-lift{\n\n  transition: transform 0.3s ease , box-shadow 0-3 ease;\n}\n.card-hover-lift:hover{\ntransform: translateY(-10px);\nbox-shadow: 0 1rem 3rem rgba(0 , 0, 0, .15) !important;\n}"
+        }
+    ]
+}

@@ -60,3 +60,19 @@ $spacers : map-merge($spacers , $custom-spacers);
 }
 
 
+
+.card-hover-lift{
+
+  transition: transform 0.5s ease , box-shadow 0.5 ease;
+}
+.card-hover-lift:hover{
+transform: translateY(-10px);
+box-shadow: 0 1rem 3rem rgba(0 , 0, 0, .15) !important;
+}
+
+.faq-icon{
+ transition:  transform 0.3s ease;
+}
+[aria-expanded="true"] .faq-icon{
+  transform: rotate(135deg);
+}

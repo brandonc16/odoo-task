@@ -1,1 +1,9 @@
-{"version":3,"sources":["awards.scss"],"names":[],"mappings":"AAAA;;;;;;;;;;GAAA","file":"awards.css"}
+{
+    "version": 3,
+    "mappings": "AAAA;;;;;;;;;;IAUI",
+    "sources": [
+        "awards.scss"
+    ],
+    "names": [],
+    "file": "awards.css"
+}
