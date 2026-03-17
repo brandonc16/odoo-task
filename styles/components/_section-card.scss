@@ -1,0 +1,41 @@
+.responsive-card{
+    background-color: $body-bg;
+    color: $body-color;
+    .text-white-50{
+    color:  #6c757d !important;
+    }
+    
+    .btn-responsive{
+        background-color: $primary;
+        color: $body-bg;
+        border: 2px solid transparent;
+        transition:  all 0.3s ease;
+        &:hover{
+            background-color: darken($primary, 10%);
+        }
+    }
+@media (min-width: 992px) {
+    background-color: $primary;
+    color: $body-bg;
+
+
+    .text-white-50{
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+ .btn-responsive{
+    background-color: $body-bg;
+    color: $primary;
+    border: 2px solid $body-bg;
+
+    &:hover{
+        background-color: #f8f9fa;
+    }
+ }
+}
+    
+}
+
+
+
+

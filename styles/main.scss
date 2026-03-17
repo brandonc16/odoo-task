@@ -1,9 +1,4 @@
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/variables-dark";
- 
 
- 
 
 // GLOBAL COLORS
 
@@ -22,7 +17,13 @@ $border-radius: 0.5rem;
 $border-radius-lg: 1.5rem;
 $border-radius-xl: 3rem;
 $box-shadow: 0 10px 30px #b9b9b9;
+ 
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+ 
 
+ 
  
 //merge colors whith bootstrap
 $custom-theme: (
@@ -43,11 +44,14 @@ $custom-spacers : (
 );
 
 //merge px whith bootstrap
-$spacers : map-merge($spacers , $custom-spacers);
+$spacers : map-merge($spacers , $custom-spacers); 
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+
+@import "components/_section-card.scss";
+@import "components/section-cta.scss";
 //global px 
 .main-container{
   @extend .px-10;

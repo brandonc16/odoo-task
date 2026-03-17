@@ -1,0 +1,10 @@
+.banner-radius{
+   border-radius: 0rem;
+}
+@media (min-width :922px) {
+
+    .banner-radius{
+        border-radius: 0 5rem 0 5rem;
+     }
+   
+}
